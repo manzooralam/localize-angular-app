@@ -5,6 +5,14 @@
   "projects": {
     "angular-localization": {
       "projectType": "application",
+      "i18n": {
+        "locales": {
+          "en": "src/translate/messages.en.xlf",
+          "fr": "src/translate/messages.fr.xlf",
+          "de": "src/translate/messages.de.xlf",
+          "hi": "src/translate/messages.hi.xlf"
+        }
+      },
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
@@ -56,6 +64,18 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "en": {
+              "localize": ["en"]
+            },
+            "fr": {
+              "localize": ["fr"]
+            },
+            "de": {
+              "localize": ["de"]
+            },
+            "hi": {
+              "localize": ["hi"]
             }
           }
         },
@@ -67,6 +87,18 @@
           "configurations": {
             "production": {
               "browserTarget": "angular-localization:build:production"
+            },
+            "en": {
+              "browserTarget": "angular-localization:build:en"
+            },
+            "fr": {
+              "browserTarget": "angular-localization:build:fr"
+            },
+            "de": {
+              "browserTarget": "angular-localization:build:de"
+            },
+            "hi": {
+              "browserTarget": "angular-localization:build:hi"
             }
           }
         },
