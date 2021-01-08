@@ -13,6 +13,7 @@ export class NavBarComponent implements OnInit {
 
   languageList = [
     { code: 'en', label: 'English' },
+    { code: 'hi', label: 'हिंदी' },
     { code: 'fr', label: 'Français' },
     { code: 'de', label: 'Deutsch' }
   ];

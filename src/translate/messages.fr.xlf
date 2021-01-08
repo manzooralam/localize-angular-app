@@ -2,9 +2,9 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="d8f6108d0a0dad756b4a38c17436b9dfda296c2d" datatype="html">
-        <source>Phrase Service Feedback</source>
-        <target>Commentaires sur le service de phrase</target>
+      <trans-unit id="1e3a2fa9755ff82c8d788ef9f7876b9d4d92b6a7" datatype="html">
+        <source>Service Feedback</source>
+        <target>Commentaires sur le service</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/feedback/feedback.component.html</context>
           <context context-type="linenumber">3</context>
